@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: blue;
+}
+.menu-time{
+    color:rgb(175, 3, 3) ;
+}
+.menu-score{
+    color:rgb(175, 3, 3) ;
+}
+.menu-lives{
+    color:rgb(175, 3, 3) ;
+}
+
+.panel{
+    margin-top: 1rem;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.square{
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    background-color: aqua;
+}
+.enemy{
+    background-color: brown;
+}
