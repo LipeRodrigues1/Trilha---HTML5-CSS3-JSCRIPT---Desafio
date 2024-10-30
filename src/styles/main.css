@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
+    background-image: url("../image/wall.png");
 }
 
 .menu{
@@ -13,7 +14,18 @@
     width: 100%;
     background-color: #000000;
     color: #ffffff;
-    border-bottom: 5px solid #ffd700;
+    border-bottom: 5px solid #808080;
+}
+.menu-time h2:nth-child(2), .menu-score h2:nth-child(2){
+    margin-top: 1rem;
+}
+
+.menu-lives{
+    display: flex;
+    align-items: center;
+}
+.menu-lives img{
+    height: 70px;
 }
 .panel{
     margin-top: 1rem;
@@ -26,8 +38,9 @@
     height: 150px;
     width: 150px;
     border: 1px solid black;
-    background-color: aquamarine;
+    background-color: darkorchid;
 }
 .enemy{
-    background-color: blueviolet;
+    background-image: url("../image/ralph.png");
+    background-size: cover;
 }
